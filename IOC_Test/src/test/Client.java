@@ -13,6 +13,7 @@ public class Client {
 		@SuppressWarnings("deprecation")
 		BeanFactory factory=new XmlBeanFactory(resource);
 		
+		factory.getBean("t");
 		System.out.println("Document Valid");
 	}
 }
