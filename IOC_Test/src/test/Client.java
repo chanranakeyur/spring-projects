@@ -14,6 +14,8 @@ public class Client {
 		BeanFactory factory=new XmlBeanFactory(resource);
 		
 		factory.getBean("t");
+		factory.getBean("t");
+		factory.getBean("t");
 		System.out.println("Document Valid");
 	}
 }
